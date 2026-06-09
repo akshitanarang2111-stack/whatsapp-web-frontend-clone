@@ -1,0 +1,594 @@
+<style>
+        .b{
+            height: 30px;
+            width: 1500px;
+            background-color: gainsboro;
+        }
+        .b1{
+            height: 20px;
+            width: 20px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url("wsup.jpg");
+            padding-top: 10px;
+            margin-left: -22px;
+            color: black;
+            padding-left: 60px;
+        }
+        .a{
+            height: 700px;
+            width: 30px;
+            background-color: gainsboro;
+        }
+        .c{
+            height: 700px;
+            width: 400px;
+            background-color: white;
+            margin-left: 30px;
+            margin-top: -700px;
+        }
+        .c1{
+            height: 50px;
+            width: 100px;
+            color: black;
+            font-size: x-large;
+            padding: 8px;
+        }
+        .c2{
+            height: 20px;
+            width: 30px;
+            color: black;
+            font-size: x-large;
+            background-image: url("wsup.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-left: 310px;
+            /* padding: 8px; */
+            margin-top: -50px;
+            /* float: right; */
+        }
+        .c3{
+            height: 30px;
+            width: 40px;
+            color: black;
+            font-size: x-large;
+            background-image: url("dot.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-left: 360px;
+            /* padding: 8px; */
+            margin-top: -25px;
+            /* float: right; */
+        }
+        .c4{
+            height: 10px;
+            width: 380px;
+            background-color: rgb(232, 229, 229);
+            border-radius: 25px;
+            margin-top: 10px;
+            margin-left: 10px;
+            padding-top: 30px;
+        }
+        .c41{
+            height: 1px;
+            width: 1px;
+            padding: 10px;
+            margin-top: -20px;
+            margin-left: 20px;
+            background-image: url("search1.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .c42{
+            margin-top: -20px;
+            margin-left: 60px;
+            
+            color: gray;
+        }
+        .c53{
+            margin-top: -48px;
+            margin-left: 10px;
+            float: right;
+            color: gray;
+        }
+        .c63{
+            margin-top: -48px;
+            margin-left: 10px;
+            float: right;
+            color: gray;
+        }
+        .c73{
+            margin-top: -48px;
+            margin-left: 10px;
+            float: right;
+            color: gray;
+        }
+        .c83{
+            margin-top: -48px;
+            margin-left: 10px;
+            float: right;
+            color: gray;
+        }
+        .c93{
+            margin-top: -48px;
+            margin-left: 10px;
+            float: right;
+            color: gray;
+        }
+        .c103{
+            margin-top: -48px;
+            margin-left: 10px;
+            float: right;
+            color: gray;
+        }
+        .c113{
+            margin-top: -48px;
+            margin-left: 10px;
+            float: right;
+            color: gray;
+        }
+
+        .c5{
+            height: 60px;
+            width: 370px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-left: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .c6{
+            height: 60px;
+            width: 370px;
+            border-radius: 10px;
+            background-color: gainsboro;
+            margin-top: 15px;
+            margin-left: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .c7{
+            height: 60px;
+            width: 370px;
+            border-radius: 10px;
+            margin-top: 15px;
+            margin-left: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .c8{
+            height: 60px;
+            width: 370px;
+            border-radius: 10px;
+            margin-top: 15px;
+            margin-left: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .c9{
+            height: 60px;
+            width: 370px;
+            border-radius: 10px;
+            margin-top: 15px;
+            margin-left: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .c10{
+            height: 60px;
+            width: 370px;
+            border-radius: 10px;
+            margin-top: 15px;
+            margin-left: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .c11{
+            height: 60px;
+            width: 370px;
+            border-radius: 10px;
+            margin-top: 15px;
+            margin-left: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+
+
+        .d{
+            background-image: url("whtsp.jpg");
+            height: 650px;
+            width: 1700;
+            margin-left: 430px;
+            margin-top: -650px;
+           
+        }
+        .e{
+            background-color: white;
+            height: 50px;
+            width: 1065px;
+            margin-left: 430px;
+            margin-top: -700px;
+            float: right;
+        }
+        .e1{
+            height: 50px;
+            width: 300px;
+            /* background-color: black; */
+        }
+        .e11{
+
+            width: 30px;
+            height: 30px;
+            background-image:url("dp.webp");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            padding-left: 30px;
+            padding-top: 20px;
+        }
+        .e12{
+            height: 50px;
+            width: 100px;
+            float: right;
+            margin-top: -43px;
+            margin-right: 120px;
+            /* color: white; */
+            /* background-color: azure; */
+            padding: 2px;
+            font-size: large;
+        }
+        .e13{
+            height: 50px;
+            width: 200px;
+            float: right;
+            margin-top: -36px;
+            margin-right: 22px;
+            color: gray;
+            /* background-color: azure; */
+            padding-top: 3px;
+            font-size: small;
+        }
+        .f{
+            height: 215px;
+            width: 0px;
+            background-color: #d0f9c9;
+            float: right;
+            margin-right: 10px;
+            margin-top: -610px;
+            background-image: url("OIP.jpg");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            font-size: xx-small;
+            padding-left: 100px;
+        }
+        .f1{
+            height: 100px;
+            width: 400px;
+            background-color: #d0f9c9;
+            float: right;
+            margin-right: 10px;
+            margin-top: -340px;
+            color: green;
+            padding-bottom: -50px;
+        }
+        .f3{
+            height: 100px;
+            width: 200px;
+            background-color: #d0f9c9;
+            float: right;
+            margin-right: 10px;
+            margin-top: -180px;
+        }
+        .f4{
+            
+            height: 20px;
+            width: 65px;
+            margin-left: 900px;
+            background-color: white;
+            color: gray;
+            margin-top: -625px;
+           padding-left: 15px;
+           border-radius: 2px;
+           /* font-size: small; */
+            
+        }
+        .f5{
+            
+            height: 20px;
+            width: 65px;
+            margin-left: 900px;
+            background-color: white;
+            color: gray;
+            margin-top: 200px;
+           padding-left: 15px;
+           border-radius: 2px;
+           /* font-size: small; */
+            
+        }
+        .g{
+            height: 50px;
+            width: 120px;
+            /* background-color: aqua; */
+            float: right;
+            margin-top: -78px;
+            
+        }
+        .g1{
+            height: 20px;
+            width: 20px;
+            background-position: center;
+            background-size: contain;
+            background-image: url("search.png");
+            margin-left: 40px;
+            margin-top: 15px;
+        }
+        .g2{
+            height: 30px;
+            width: 30px;
+            background-position: center;
+            background-size: contain;
+            background-image: url("dot.png");
+            margin-right: 15px;
+            margin-top: -25px;
+            background-color: black;
+            float: right;
+        }
+        .f11{
+            height: 10px;
+            width: 50px;
+            /* background-color: aqua; */
+            color: gray;
+            margin-top: 206px;
+            margin-left: -45px;
+        }
+        .a1{
+            height: 30px;
+            width: 20px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url("msg1.jpg");
+            padding-top: 20px;
+            margin-left: 5px;
+        }
+        .a2{
+            height: 30px;
+            width: 20px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url("call.jpg");
+            margin-top: -10px;
+            margin-left: 3px;
+        }
+        .a3{
+            height: 30px;
+            width: 20px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url("status.jpg");
+            margin-top: 5px;
+            margin-left: 3px;
+        }
+        .a4{
+            height: 30px;
+            width: 20px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url("grp.jpg");
+            margin-top: 5px;
+            margin-left: 3px;
+        }
+        .a5{
+            height: 30px;
+            width: 20px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url("meta.jpg");
+            margin-top: 5px;
+            margin-left: 3px;
+        }
+        .a6{
+            height: 30px;
+            width: 20px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url("glry.jpg");
+            margin-top: 425px;
+            margin-left: 3px;
+        }
+        .a7{
+
+            width: 4px;
+            height: 7px;
+            background-image:url("dp.webp");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            padding-left: 30px;
+            padding-top: 60px;
+        }
+
+
+        .f12{
+            color: gray;
+            padding-top: 5px;
+            padding-left: 320px;
+        }
+        .f13{
+            width: 100px;
+            color: gray;
+            padding-top: 20px;
+            padding-left: 120px;
+        }
+        .f14{
+            width: 150px;
+            color: green;
+            padding-top: 5px;
+            padding-left: 10px;
+        }
+
+        .f2{
+            height: 40px;
+            width: 1050px;
+            background-color: white;
+            border-radius: 25px;
+            margin-top: -55px;
+            margin-right: 10px;
+            float: right;
+        }
+        .f21{
+            font-size: large;
+            color: black;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+        .f22{
+            margin-top: -20px;
+            margin-left: 40px;
+            color: gray;
+        }
+        .f23{
+            height: 20px;
+            width: 20px;
+            margin-top: -20px;
+            margin-right: 20px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url("micro.jpg");
+            float: right;
+        }
+        .hr{
+            width: 5px;
+            color: gainsboro;
+        }
+        .c51{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: black;
+            background-image: url("dp2.jpg");
+            background-position: center;
+            background-size: contain;
+        }
+        .c52{
+            height: 50px;
+            width: 100px;
+            color: black;
+           margin-left: 60px;
+            margin-top: -45px;
+        }
+        .c61{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-image: url("dp.webp");
+            background-position: center;
+            background-size: contain;
+            background-color: black;
+        }
+        .c62{
+            height: 50px;
+            width: 240px;
+            color: black;
+           margin-left: 60px;
+            margin-top: -45px;
+        }
+
+        .c71{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-image: url("dp1.jpg");
+            background-position: center;
+            background-size: contain;
+            background-color: black;
+        }
+        .c72{
+            height: 50px;
+            width: 100px;
+            color: black;
+           margin-left: 60px;
+            margin-top: -45px;
+            
+        }
+        .c81{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: black;
+            background-image: url("dp5.jpg");
+            background-position: center;
+            background-size: contain;
+        }
+        .c82{
+            height: 50px;
+            width: 130px;
+            color: black;
+           margin-left: 60px;
+            margin-top: -45px;
+
+        }
+        .c91{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-image: url("dp3.jpg");
+            background-position: center;
+            background-size: contain;
+        }
+        .c92{
+            height: 50px;
+            width: 100px;
+            color: black;
+           margin-left: 60px;
+            margin-top: -45px;
+        }
+        .c101{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: black;
+            background-image: url("dp7.webp");
+            background-position: center;
+            background-size: contain;
+        }
+        .c102{
+            height: 50px;
+            width: 100px;
+            color: black;
+           margin-left: 60px;
+            margin-top: -45px;
+        }
+        .c111{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: black;
+            background-image: url("dp6.jpg");
+            background-position: center;
+            background-size: contain;
+            
+        }
+        .c112{
+            height: 50px;
+            width: 100px;
+            color: black;
+           margin-left: 60px;
+            margin-top: -45px;
+        }
+
+
+    </style>
